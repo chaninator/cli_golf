@@ -1,0 +1,173 @@
+
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.1
+Homebrew 1.1.10 Homebrew/homebrew-core (git revision 28c4; last commit 2017-02-27)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]
+node v7.6.0
+psql (PostgreSQL) 9.6.2
+------------------------------------------
+type unwelcome to remove this message
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ rm cans.txt 
+removed 'cans.txt'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ mv ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/trashcan/ ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/
+'/Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/trashcan/' -> '/Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ mv ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan/sink/ ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/
+'/Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan/sink/' -> '/Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd sink
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ del delete-me.txt 
+-bash: del: command not found
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt  drying-rack/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ mv clean-dishes.txt ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink/drying-rack/
+'clean-dishes.txt' -> '/Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink/drying-rack/clean-dishes.txt'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ cd drying-rack/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink/drying-rack
+$ cd ../../
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd freezer
+-bash: cd: freezer: No such file or directory
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd fridge/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge
+$ cd freezer/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/freezer
+$ rm couch.txt 
+removed 'couch.txt'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/freezer
+$ cd ../..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd pantry/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/pantry
+$ mv crisper-drawer/ ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/
+'crisper-drawer/' -> '/Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/crisper-drawer'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/pantry
+$ pwd
+/Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/pantry
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/pantry
+$ cd ..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd fridge/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge
+$ cd crisper-drawer/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/crisper-drawer
+$ cd ..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge
+$ cd freezer/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge/freezer
+$ cd ..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge
+$ rm diapers.txt 
+removed 'diapers.txt'
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/fridge
+$ cd ..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd pantry/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/pantry
+$ cd ..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd sink
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink
+$ cd drying-rack/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/sink/drying-rack
+$ cd ../..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen
+$ cd trashcan/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan
+$ open homework
+The file /Users/ChaninatorMobile/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan/homework does not exist.
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan
+$ open ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master/kitchen/trashcan
+$ cd ../..
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master
+$ tree
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   ├── freezer
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   └── milk.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   ├── sink
+│   │   ├── dirty-dishes.txt
+│   │   └── drying-rack
+│   │       └── clean-dishes.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+└── kitchen.zip
+
+8 directories, 15 files
+ChaninatorMobile ~/code/wdi/wdi-atx-10/homework/cli_golf-master
+$ 
